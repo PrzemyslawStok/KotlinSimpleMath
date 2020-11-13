@@ -1,5 +1,5 @@
 fun main(){
-    val tablica = arrayOf(1,5,3,4,7,1)
+    val tablica = arrayOf(1,2)
 
     for(i in 0..tablica.size-1){
         println("tablica[$i]=${tablica[i]}")
@@ -8,9 +8,10 @@ fun main(){
     var sumaElementow = 0
 
     for(i in 0..tablica.size-1){
-
+        sumaElementow = sumaElementow + tablica[i]
     }
 
     println("Suma elementów tablicy: $sumaElementow")
+    println("Średnia wynosi:")
 
 }
