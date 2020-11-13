@@ -5,4 +5,12 @@ fun main(){
         println("tablica[$i]=${tablica[i]}")
     }
 
+    var sumaElementow = 0
+
+    for(i in 0..tablica.size-1){
+
+    }
+
+    println("Suma elementów tablicy: $sumaElementow")
+
 }
