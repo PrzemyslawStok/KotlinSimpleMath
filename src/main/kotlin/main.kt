@@ -12,6 +12,8 @@ fun main(){
     }
 
     println("Suma elementów tablicy: $sumaElementow")
-    println("Średnia wynosi:")
+
+    val srednia = sumaElementow.toDouble()/tablica.size
+    println("Średnia wynosi: ${srednia}")
 
 }
