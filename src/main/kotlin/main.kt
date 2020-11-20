@@ -1,9 +1,14 @@
 fun main(){
-    val tablica = arrayOf(1,2)
+    val tablica = arrayOf(1,2,3,4,5,6)
+
+    println("Rozmiar tablicy: ${tablica.size}")
 
     for(i in 0..tablica.size-1){
         println("tablica[$i]=${tablica[i]}")
     }
+
+
+
 
     var sumaElementow = 0
 
@@ -15,5 +20,4 @@ fun main(){
 
     val srednia = sumaElementow/tablica.size
     println("Średnia wynosi: ${srednia}")
-
 }
