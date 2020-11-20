@@ -1,8 +1,8 @@
 fun main(){
     val tablica: Array<Int> = arrayOf(1,2,3,4,5,6)
 
-    println("Rozmiar tablicy: ${tablica.size}")
-    println("Indeksy tablicy: ${tablica.indices}")
+    tablicaInfo(tablica)
+    wyswietlTablice(tablica)
 
     for(i in 0..tablica.size-1){
         println("tablica[$i]=${tablica[i]}")
@@ -44,6 +44,15 @@ fun wizytowka(name: String, surname: String){
 
     println("Imię: ${name}")
     println("Nazwisko: ${surname}")
+}
+
+fun tablicaInfo(tablica: Array<Int>){
+    println("Rozmiar tablicy: ${tablica.size}")
+    println("Indeksy tablicy: ${tablica.indices}")
+}
+
+fun wyswietlTablice(tablica: Array<Int>){
+
 }
 
 
