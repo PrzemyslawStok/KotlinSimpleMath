@@ -28,7 +28,8 @@ fun main(){
 
     kolejnaFunckja()
 
-    wizytowka()
+    wizytowka("Przemysław")
+    wizytowka("Piotr")
 }
 
 fun wyswietlInfo(){
