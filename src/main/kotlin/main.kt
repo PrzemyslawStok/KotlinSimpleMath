@@ -43,4 +43,8 @@ fun wyswietlTablice(tablica: Array<Int>){
 
 }
 
+fun obliczSrednia(tablica: Array<Int>){
+
+}
+
 
