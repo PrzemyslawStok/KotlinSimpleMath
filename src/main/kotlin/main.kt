@@ -23,21 +23,9 @@ fun main(){
     val srednia = sumaElementow/tablica.size
     println("Średnia wynosi: ${srednia}")
 
-    for(i in 1..10)
-        wyswietlInfo()
-
-    kolejnaFunckja()
 
     wizytowka("Przemysław","Stokłosa")
     wizytowka("Piotr","Stokłosa")
-}
-
-fun wyswietlInfo(){
-    println("Przykładowe informacje...")
-}
-
-fun kolejnaFunckja(){
-    println("Kolejne informacje...")
 }
 
 fun wizytowka(name: String, surname: String){
