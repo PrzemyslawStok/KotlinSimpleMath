@@ -1,5 +1,5 @@
 fun main(){
-    val tablica = arrayOf(1,2,3,4,5,6)
+    val tablica: Array<Int> = arrayOf(1,2,3,4,5,6)
 
     println("Rozmiar tablicy: ${tablica.size}")
     println("Indeksy tablicy: ${tablica.indices}")
