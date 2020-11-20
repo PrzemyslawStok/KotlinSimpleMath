@@ -28,8 +28,8 @@ fun main(){
 
     kolejnaFunckja()
 
-    wizytowka("Przemysław")
-    wizytowka("Piotr")
+    wizytowka("Przemysław","Stokłosa")
+    wizytowka("Piotr","Stokłosa")
 }
 
 fun wyswietlInfo(){
@@ -40,8 +40,7 @@ fun kolejnaFunckja(){
     println("Kolejne informacje...")
 }
 
-fun wizytowka(name: String){
-    val surname = "Stokłosa"
+fun wizytowka(name: String, surname: String){
 
     println("Imię: ${name}")
     println("Nazwisko: ${surname}")
